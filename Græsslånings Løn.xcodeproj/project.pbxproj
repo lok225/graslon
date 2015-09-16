@@ -11,55 +11,16 @@
 		E32BB48D1B6C2D0A00CBC30A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32BB48C1B6C2D0A00CBC30A /* ViewController.swift */; };
 		E32BB4901B6C2D0A00CBC30A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32BB48E1B6C2D0A00CBC30A /* Main.storyboard */; };
 		E32BB4931B6C2D0A00CBC30A /* Gr_ssla_nings_L_n.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E32BB4911B6C2D0A00CBC30A /* Gr_ssla_nings_L_n.xcdatamodeld */; };
-		E32BB4951B6C2D0A00CBC30A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32BB4941B6C2D0A00CBC30A /* Assets.xcassets */; };
 		E32BB4981B6C2D0A00CBC30A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32BB4961B6C2D0A00CBC30A /* LaunchScreen.storyboard */; };
-		E3DE344F1B84B3A200BA8333 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DE344D1B84B3A200BA8333 /* Interface.storyboard */; };
-		E3DE34511B84B3A200BA8333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DE34501B84B3A200BA8333 /* Assets.xcassets */; };
-		E3DE34581B84B3A200BA8333 /* Græs Løn Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E3DE34571B84B3A200BA8333 /* Græs Løn Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		E3DE345F1B84B3A200BA8333 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE345E1B84B3A200BA8333 /* InterfaceController.swift */; };
-		E3DE34611B84B3A200BA8333 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE34601B84B3A200BA8333 /* ExtensionDelegate.swift */; };
-		E3DE34631B84B3A200BA8333 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE34621B84B3A200BA8333 /* NotificationController.swift */; };
-		E3DE34651B84B3A200BA8333 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE34641B84B3A200BA8333 /* GlanceController.swift */; };
-		E3DE34671B84B3A200BA8333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DE34661B84B3A200BA8333 /* Assets.xcassets */; };
-		E3DE346B1B84B3A200BA8333 /* Græs Løn.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E3DE344B1B84B3A200BA8333 /* Græs Løn.app */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E3DE34591B84B3A200BA8333 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E32BB47F1B6C2D0A00CBC30A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E3DE34561B84B3A200BA8333;
-			remoteInfo = "Græs Løn Extension";
-		};
-		E3DE34691B84B3A200BA8333 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E32BB47F1B6C2D0A00CBC30A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E3DE344A1B84B3A200BA8333;
-			remoteInfo = "Græs Løn";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		E3DE34711B84B3A200BA8333 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				E3DE34581B84B3A200BA8333 /* Græs Løn Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E3DE34731B84B3A200BA8333 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				E3DE346B1B84B3A200BA8333 /* Græs Løn.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,33 +33,12 @@
 		E32BB48C1B6C2D0A00CBC30A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E32BB48F1B6C2D0A00CBC30A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E32BB4921B6C2D0A00CBC30A /* Gr_ssla_nings_L_n.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gr_ssla_nings_L_n.xcdatamodel; sourceTree = "<group>"; };
-		E32BB4941B6C2D0A00CBC30A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E32BB4971B6C2D0A00CBC30A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E32BB4991B6C2D0A00CBC30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3B196841B6FA291006DD593 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
-		E3DE344B1B84B3A200BA8333 /* Græs Løn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Græs Løn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3DE344E1B84B3A200BA8333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		E3DE34501B84B3A200BA8333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E3DE34521B84B3A200BA8333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3DE34571B84B3A200BA8333 /* Græs Løn Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Græs Løn Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3DE345D1B84B3A200BA8333 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		E3DE345E1B84B3A200BA8333 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		E3DE34601B84B3A200BA8333 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		E3DE34621B84B3A200BA8333 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		E3DE34641B84B3A200BA8333 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
-		E3DE34661B84B3A200BA8333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E3DE34681B84B3A200BA8333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E32BB4841B6C2D0A00CBC30A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3DE34541B84B3A200BA8333 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -112,8 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				E32BB4891B6C2D0A00CBC30A /* Græsslånings Løn */,
-				E3DE344C1B84B3A200BA8333 /* Græs Løn */,
-				E3DE345B1B84B3A200BA8333 /* Græs Løn Extension */,
 				E32BB4881B6C2D0A00CBC30A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,8 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				E32BB4871B6C2D0A00CBC30A /* Græsslånings Løn.app */,
-				E3DE344B1B84B3A200BA8333 /* Græs Løn.app */,
-				E3DE34571B84B3A200BA8333 /* Græs Løn Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,46 +69,12 @@
 			children = (
 				E32BB48A1B6C2D0A00CBC30A /* AppDelegate.swift */,
 				E32BB48C1B6C2D0A00CBC30A /* ViewController.swift */,
-				E3B196841B6FA291006DD593 /* MyPlayground.playground */,
 				E32BB48E1B6C2D0A00CBC30A /* Main.storyboard */,
-				E32BB4941B6C2D0A00CBC30A /* Assets.xcassets */,
 				E32BB4961B6C2D0A00CBC30A /* LaunchScreen.storyboard */,
 				E32BB4991B6C2D0A00CBC30A /* Info.plist */,
 				E32BB4911B6C2D0A00CBC30A /* Gr_ssla_nings_L_n.xcdatamodeld */,
 			);
 			path = "Græsslånings Løn";
-			sourceTree = "<group>";
-		};
-		E3DE344C1B84B3A200BA8333 /* Græs Løn */ = {
-			isa = PBXGroup;
-			children = (
-				E3DE344D1B84B3A200BA8333 /* Interface.storyboard */,
-				E3DE34501B84B3A200BA8333 /* Assets.xcassets */,
-				E3DE34521B84B3A200BA8333 /* Info.plist */,
-			);
-			path = "Græs Løn";
-			sourceTree = "<group>";
-		};
-		E3DE345B1B84B3A200BA8333 /* Græs Løn Extension */ = {
-			isa = PBXGroup;
-			children = (
-				E3DE345E1B84B3A200BA8333 /* InterfaceController.swift */,
-				E3DE34601B84B3A200BA8333 /* ExtensionDelegate.swift */,
-				E3DE34621B84B3A200BA8333 /* NotificationController.swift */,
-				E3DE34641B84B3A200BA8333 /* GlanceController.swift */,
-				E3DE34661B84B3A200BA8333 /* Assets.xcassets */,
-				E3DE34681B84B3A200BA8333 /* Info.plist */,
-				E3DE345C1B84B3A200BA8333 /* Supporting Files */,
-			);
-			path = "Græs Løn Extension";
-			sourceTree = "<group>";
-		};
-		E3DE345C1B84B3A200BA8333 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E3DE345D1B84B3A200BA8333 /* PushNotificationPayload.apns */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,46 +92,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				E3DE346A1B84B3A200BA8333 /* PBXTargetDependency */,
 			);
 			name = "Græsslånings Løn";
 			productName = "Græsslånings Løn";
 			productReference = E32BB4871B6C2D0A00CBC30A /* Græsslånings Løn.app */;
 			productType = "com.apple.product-type.application";
-		};
-		E3DE344A1B84B3A200BA8333 /* Græs Løn */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3DE34721B84B3A200BA8333 /* Build configuration list for PBXNativeTarget "Græs Løn" */;
-			buildPhases = (
-				E3DE34491B84B3A200BA8333 /* Resources */,
-				E3DE34711B84B3A200BA8333 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E3DE345A1B84B3A200BA8333 /* PBXTargetDependency */,
-			);
-			name = "Græs Løn";
-			productName = "Græs Løn";
-			productReference = E3DE344B1B84B3A200BA8333 /* Græs Løn.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		E3DE34561B84B3A200BA8333 /* Græs Løn Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3DE34701B84B3A200BA8333 /* Build configuration list for PBXNativeTarget "Græs Løn Extension" */;
-			buildPhases = (
-				E3DE34531B84B3A200BA8333 /* Sources */,
-				E3DE34541B84B3A200BA8333 /* Frameworks */,
-				E3DE34551B84B3A200BA8333 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Græs Løn Extension";
-			productName = "Græs Løn Extension";
-			productReference = E3DE34571B84B3A200BA8333 /* Græs Løn Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -241,12 +108,6 @@
 				ORGANIZATIONNAME = "Martin Lok";
 				TargetAttributes = {
 					E32BB4861B6C2D0A00CBC30A = {
-						CreatedOnToolsVersion = 7.0;
-					};
-					E3DE344A1B84B3A200BA8333 = {
-						CreatedOnToolsVersion = 7.0;
-					};
-					E3DE34561B84B3A200BA8333 = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -265,8 +126,6 @@
 			projectRoot = "";
 			targets = (
 				E32BB4861B6C2D0A00CBC30A /* Græsslånings Løn */,
-				E3DE344A1B84B3A200BA8333 /* Græs Løn */,
-				E3DE34561B84B3A200BA8333 /* Græs Løn Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -277,25 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E32BB4981B6C2D0A00CBC30A /* LaunchScreen.storyboard in Resources */,
-				E32BB4951B6C2D0A00CBC30A /* Assets.xcassets in Resources */,
 				E32BB4901B6C2D0A00CBC30A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3DE34491B84B3A200BA8333 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3DE34511B84B3A200BA8333 /* Assets.xcassets in Resources */,
-				E3DE344F1B84B3A200BA8333 /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3DE34551B84B3A200BA8333 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3DE34671B84B3A200BA8333 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,31 +153,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3DE34531B84B3A200BA8333 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3DE34631B84B3A200BA8333 /* NotificationController.swift in Sources */,
-				E3DE34611B84B3A200BA8333 /* ExtensionDelegate.swift in Sources */,
-				E3DE345F1B84B3A200BA8333 /* InterfaceController.swift in Sources */,
-				E3DE34651B84B3A200BA8333 /* GlanceController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E3DE345A1B84B3A200BA8333 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E3DE34561B84B3A200BA8333 /* Græs Løn Extension */;
-			targetProxy = E3DE34591B84B3A200BA8333 /* PBXContainerItemProxy */;
-		};
-		E3DE346A1B84B3A200BA8333 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E3DE344A1B84B3A200BA8333 /* Græs Løn */;
-			targetProxy = E3DE34691B84B3A200BA8333 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E32BB48E1B6C2D0A00CBC30A /* Main.storyboard */ = {
@@ -353,14 +170,6 @@
 				E32BB4971B6C2D0A00CBC30A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		E3DE344D1B84B3A200BA8333 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3DE344E1B84B3A200BA8333 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -450,7 +259,6 @@
 		E32BB49D1B6C2D0A00CBC30A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Græsslånings Løn/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.martinlok.Gr-ssla-nings-L-n";
@@ -461,71 +269,10 @@
 		E32BB49E1B6C2D0A00CBC30A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Græsslånings Løn/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.martinlok.Gr-ssla-nings-L-n";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		E3DE346C1B84B3A200BA8333 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				IBSC_MODULE = Gr_s_L_n_Extension;
-				INFOPLIST_FILE = "Græs Løn/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.martinlok.Gr-ssla-nings-L-n.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		E3DE346D1B84B3A200BA8333 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				IBSC_MODULE = Gr_s_L_n_Extension;
-				INFOPLIST_FILE = "Græs Løn/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.martinlok.Gr-ssla-nings-L-n.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		E3DE346E1B84B3A200BA8333 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "Græs Løn Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.martinlok.Gr-ssla-nings-L-n.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		E3DE346F1B84B3A200BA8333 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "Græs Løn Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.martinlok.Gr-ssla-nings-L-n.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -549,22 +296,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		E3DE34701B84B3A200BA8333 /* Build configuration list for PBXNativeTarget "Græs Løn Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E3DE346E1B84B3A200BA8333 /* Debug */,
-				E3DE346F1B84B3A200BA8333 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		E3DE34721B84B3A200BA8333 /* Build configuration list for PBXNativeTarget "Græs Løn" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E3DE346C1B84B3A200BA8333 /* Debug */,
-				E3DE346D1B84B3A200BA8333 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
