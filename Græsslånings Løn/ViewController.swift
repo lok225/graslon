@@ -29,22 +29,15 @@ class ViewController: UIViewController {
     let lastMailDateKey = "lastMailDate"
     
     var dateArray: [NSDate!] = []
-    var defaults: NSUserDefaults!
+    var defaults = NSUserDefaults.standardUserDefaults()
+    
+    // MARK: - General functions
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if NSUserDefaults(suiteName: "group.martinlok.grasslaaningsLon") != nil {
-            defaults = NSUserDefaults(suiteName: "group.martinlok.grasslaaningsLon")
-            print("Shared")
-        } else {
-            defaults = NSUserDefaults.standardUserDefaults()
-            print("Standard")
-        }
-        
         if defaults.objectForKey(dateArrayKey) == nil {
-            defaults.setObject(dateArray, forKey: dateArrayKey)
-            defaults.synchronize()
+            updateDateArray(dateArray)
         }
     }
     
@@ -53,11 +46,10 @@ class ViewController: UIViewController {
         
         let date = myDatePicker.date
         
-        dateArray = defaults.objectForKey(dateArrayKey) as! [NSDate]
+        getDateArray()
         dateArray.append(date)
         
-        defaults.setObject(dateArray, forKey: dateArrayKey)
-        defaults.synchronize()
+        updateDateArray(dateArray)
         
         myTable.reloadData()
     }
@@ -65,7 +57,6 @@ class ViewController: UIViewController {
     @IBAction func btnSendMail(sender: UIBarButtonItem) {
         
         defaults.setObject(NSDate(), forKey: lastMailDateKey)
-        defaults.synchronize()
         
         guard MFMailComposeViewController.canSendMail() == true else {
             print("Kan ikke sende mail")
@@ -85,12 +76,23 @@ class ViewController: UIViewController {
     
     // MARK: - Helper Functions
     
+    func getDateArray() {
+        
+        dateArray = defaults.objectForKey(dateArrayKey) as! [NSDate]
+    }
+    
+    func updateDateArray(newArray: [NSDate!]) {
+        defaults.setObject(newArray, forKey: dateArrayKey)
+        defaults.synchronize()
+        
+    }
+    
     func createStringFromDateArray(array: [NSDate!]) -> String {
         
         let firstString = "Så er det igen blevet tid til jeg skal have løn for græsslåning. Det er stadig 200 kr per gang. \n \n"
         var secondString: String = ""
         
-        dateArray = defaults.objectForKey(dateArrayKey) as! [NSDate]
+        getDateArray()
         
         for date in dateArray {
             
@@ -137,7 +139,7 @@ class ViewController: UIViewController {
 extension ViewController: UITableViewDataSource {
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        dateArray = defaults.objectForKey(dateArrayKey) as! [NSDate]
+        getDateArray()
         
         return dateArray.count
     }
@@ -146,7 +148,7 @@ extension ViewController: UITableViewDataSource {
         
         let cell = UITableViewCell()
         
-        dateArray = defaults.objectForKey(dateArrayKey) as! [NSDate]
+        getDateArray()
         
         let dateFormatter = NSDateFormatter()
         dateFormatter.dateStyle = NSDateFormatterStyle.MediumStyle
@@ -162,10 +164,9 @@ extension ViewController: UITableViewDelegate {
     
     func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         
-        dateArray = defaults.objectForKey(self.dateArrayKey) as! [NSDate]
+        getDateArray()
         dateArray.removeAtIndex(indexPath.row)
-        defaults.setObject(dateArray, forKey: self.dateArrayKey)
-        defaults.synchronize()
+        updateDateArray(dateArray)
         tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Left)
     }
 }
