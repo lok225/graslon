@@ -9,8 +9,6 @@
 import UIKit
 import MessageUI
 
-// Kommentar
-
 class ViewController: UIViewController {
     
     // MARK: Outlets
@@ -83,6 +81,7 @@ class ViewController: UIViewController {
         
         self.presentViewController(mailViewController, animated: true, completion: nil)
     }
+    
     
     // MARK: - Helper Functions
     
